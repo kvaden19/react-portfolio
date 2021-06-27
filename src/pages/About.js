@@ -1,10 +1,9 @@
 import React from "react";
+import './styles/pages.css';
 
 function About() {
   return (
-    <div>
-        <h1>Kelly Vaden</h1>
-        <h2>Full Stack Developer</h2>
+    <div className='mainPage'>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
             consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
