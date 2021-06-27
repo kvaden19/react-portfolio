@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Flavor Saver",
+        "image": "https://placehold.it/400x400",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "tags": ["Node.js", "Sequelize", "RESTful API"],
+        "sourceLink": "www.github.com/kvaden19/placeholder",
+        "deployedLink": "magicalland.heroku.com"
+    },
+    {
+        "name": "E-Commerce Back End",
+        "image": "https://placehold.it/400x400",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "tags": ["Node.js", "Sequelize", "RESTful API"],
+        "sourceLink": "www.github.com/kvaden19/placeholder",
+        "deployedLink": "magicalland.heroku.com"
+    },
+    {
+        "name": "Team Profile Generator",
+        "image": "https://placehold.it/400x400",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "tags": ["Node.js", "Sequelize", "RESTful API"],
+        "sourceLink": "www.github.com/kvaden19/placeholder",
+        "deployedLink": "magicalland.heroku.com"
+    },
+    {
+        "name": "Fullstack Bet",
+        "image": "https://placehold.it/400x400",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "tags": ["Node.js", "Sequelize", "RESTful API"],
+        "sourceLink": "www.github.com/kvaden19/placeholder",
+        "deployedLink": "magicalland.heroku.com"
+    },
+    {
+        "name": "Weather Dashboard",
+        "image": "https://placehold.it/400x400",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "tags": ["Node.js", "Sequelize", "RESTful API"],
+        "sourceLink": "www.github.com/kvaden19/placeholder",
+        "deployedLink": "magicalland.heroku.com"
+    },
+    {
+        "name": "Password Generator",
+        "image": "https://placehold.it/400x400",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "tags": ["Node.js", "Sequelize", "RESTful API"],
+        "sourceLink": "www.github.com/kvaden19/placeholder",
+        "deployedLink": "magicalland.heroku.com"
+    }
+]
