@@ -7,17 +7,19 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <NavBar id='sidebar'/>
-        <div id='main'>
-          <Route exact path='/' component={About} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/projects' component={Projects} />
+    <div id='background'>
+      <Router>
+        <div>
+          <NavBar id='sidebar'/>
+          <div id='main'>
+            <Route exact path='/' component={About} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
