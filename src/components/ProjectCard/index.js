@@ -1,27 +1,32 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
+import github from '../images/GitHub-Mark-Light-64px.png';
+import window from '../images/icons8-new-window-50.png';
 
 function ProjectCard(props) {
   return (
-    <div className="card">
+    <div className="projectCard">
       <div className="img-container">
-        {/* <img alt={props.name} src={props.image} /> */}
+        <img alt={props.name} src={props.image} />
       </div>
       <div className="content">
-        <ul>
-          <li>
-            <strong>Title</strong> {props.name}
-          </li>
-          <li>
-            <strong>Description:</strong> {props.description}
-          </li>
-          <li>
-            <strong>Source Code:</strong> {props.sourceLink}
-          </li>
-          <li>
-            <strong>Deployed App:</strong> {props.deployedLink}
-          </li>
-        </ul>
+        <div className="cardHeader">
+          <h5>{props.name}</h5>
+        </div>
+        <div className="dcx">
+          <p>{props.description}</p>
+        </div>
+        <div className="cardFooter">
+          <p className='tags'>{props.tags}</p>
+          <ul>
+            <li><a href={props.sourceLink} target="_blank" rel='noreferrer'>
+              <img src={github} alt="Link to GitHub"/> 
+            </a></li>
+            <li><a href={props.deployedLink} target="_blank" rel='noreferrer'>
+              <img src={window} alt="Link to App"/> 
+            </a></li>
+          </ul>
+        </div>
       </div>
     </div>
   );
