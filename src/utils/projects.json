@@ -1,50 +1,56 @@
 [
     {
+        "id": 1,
         "name": "Flavor Saver",
-        "image": "https://placehold.it/400x400",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": ["Node.js", "Sequelize", "RESTful API"],
-        "sourceLink": "www.github.com/kvaden19/placeholder",
-        "deployedLink": "magicalland.heroku.com"
+        "image": "flavor",
+        "description": "A meal planning app giving user access to a massive library of recipes and planning tools by day and by week. In this collaborative project, my role was to design the database schema and write Sequelize models.",
+        "tags": "Node.js Express.js Sequelize SpoonacularAPI Bootstrap",
+        "sourceLink": "https://github.com/thereal-baitjet/flavor-saver",
+        "deployedLink": "https://tranquil-sea-86100.herokuapp.com/"
     },
     {
-        "name": "E-Commerce Back End",
-        "image": "https://placehold.it/400x400",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": ["Node.js", "Sequelize", "RESTful API"],
-        "sourceLink": "www.github.com/kvaden19/placeholder",
-        "deployedLink": "magicalland.heroku.com"
+        "id": 2,
+        "name": "Employee Tracker CLI",
+        "image": "cms",
+        "description": "A content management system (CMS) built for small businesses. From this command line interface, the user can view departments, roles, and employees, add departments, roles, and employees, or update a user's role.",
+        "tags": "Node.js Inquirer MySQL",
+        "sourceLink": "https://github.com/kvaden19/employee-tracker",
+        "deployedLink": "https://drive.google.com/file/d/158oLlq99XuhUsmVwPhrECzSjm9k6YxZT/view"
     },
     {
+        "id": 3,
         "name": "Team Profile Generator",
-        "image": "https://placehold.it/400x400",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": ["Node.js", "Sequelize", "RESTful API"],
-        "sourceLink": "www.github.com/kvaden19/placeholder",
-        "deployedLink": "magicalland.heroku.com"
+        "image": "team",
+        "description": "This application displays employee details in a clean user interface. An unlimited number of employees can be entered and assigned roles of Manager, Employee, or Intern. This gives a team manager quick access to employees' emails and GitHub profiles.",
+        "tags": "Node.js Inquirer Bootstrap",
+        "sourceLink": "https://github.com/kvaden19/team-profile-generator",
+        "deployedLink": "https://drive.google.com/file/d/1G1VX7nioNIhNRc0Ep5P8YHGFuOqw5ZWz/view?usp=sharing"
     },
     {
+        "id": 4,
         "name": "Fullstack Bet",
-        "image": "https://placehold.it/400x400",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": ["Node.js", "Sequelize", "RESTful API"],
-        "sourceLink": "www.github.com/kvaden19/placeholder",
-        "deployedLink": "magicalland.heroku.com"
+        "image": "fullstack",
+        "description": "An online hub for European Football information, including upcoming games and team stats. In this collaborative project, my role was to use JavaScript’s Fetch API and a third-party Soccer API to show the user stats on upcoming matches.",
+        "tags": "FetchAPI SoccerAPI JavaScript CSS HTML",
+        "sourceLink": "https://github.com/thereal-baitjet/bet-fullstack",
+        "deployedLink": "https://thereal-baitjet.github.io/bet-fullstack/"
     },
     {
+        "id": 5,
         "name": "Weather Dashboard",
-        "image": "https://placehold.it/400x400",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": ["Node.js", "Sequelize", "RESTful API"],
-        "sourceLink": "www.github.com/kvaden19/placeholder",
-        "deployedLink": "magicalland.heroku.com"
+        "image": "weather",
+        "description": "A simple weather dashboard that allows a user to look up current and future weather conditions based on city name. The user's last ten searches will persist in local storage and be shown on the page.",
+        "tags": "JavaScript jQuery OpenWeatherAPI Bootstrap HTML",
+        "sourceLink": "https://github.com/kvaden19/weather-dashboard",
+        "deployedLink": "https://kvaden19.github.io/weather-dashboard/"
     },
     {
+        "id": 6,
         "name": "Password Generator",
-        "image": "https://placehold.it/400x400",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": ["Node.js", "Sequelize", "RESTful API"],
-        "sourceLink": "www.github.com/kvaden19/placeholder",
-        "deployedLink": "magicalland.heroku.com"
+        "image": "password",
+        "description": "Best practices for web security tell us to use passwords that are hard to guess and to use a different password for each page or app we use. This app will generate a random password for the user, given criteria such as which character types to use and length of desired password",
+        "tags": "JavaScript CSS HTML",
+        "sourceLink": "https://github.com/kvaden19/password-generator",
+        "deployedLink": "https://kvaden19.github.io/password-generator/"
     }
 ]

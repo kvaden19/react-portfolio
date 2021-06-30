@@ -1,0 +1,65 @@
+.projectCard {
+    height: 390px;
+    margin-bottom: 50px;
+    background-color: #489bc7;
+    opacity: 90%;
+}
+
+.projectCard h5 {
+    padding: 12px 0 0 12px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.img-container {
+    display: inline;
+    float: left;
+    width: 40%;
+}
+
+.img-container img {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+.content {
+    display: inline;
+    float: right;
+    height: 100%;
+    width: 60%;
+}
+
+.cardHeader {
+    display: block;
+    height: 30%;
+}
+
+.dcx {
+    display: block;
+    height: 40%;
+    margin-left: -50px;
+    background-color: #2d3436;
+    padding: 12px 0 0 12px;
+    color: white;
+}
+
+.cardFooter {
+    padding: 12px 0 0 12px;
+    display: block;
+    height: 30%;
+}
+
+.tags {
+    word-spacing: 10px;
+}
+
+.cardFooter li {
+    float: left;
+    width: 10%
+}
+
+.cardFooter img {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
