@@ -6,6 +6,10 @@ li {
     list-style-type: none;
 }
 
+.link {
+    color: white;
+}
+
 #contact li {
     float: left;
     width: 30%

@@ -9,12 +9,15 @@ class Projects extends Component {
 
     render() {
         return (
-        <div className='mainPage'>
+        <div className='projectPage'>
             <Wrapper>
                 {this.state.projects.map(project => (
                 <ProjectCard
+                    key={project.id}
                     name={project.name}
+                    image={project.image}
                     description={project.description}
+                    tags={project.tags}
                     sourceLink={project.sourceLink}
                     deployedLink={project.deployedLink}
                 />

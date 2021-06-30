@@ -11,27 +11,16 @@
     font-weight: 300;
 }
 
-.img-container {
-    display: inline;
-    float: left;
-    width: 40%;
-}
-
-.img-container img {
-    width: 100%;
-    aspect-ratio: 3/2;
-}
-
 .content {
     display: inline;
     float: right;
     height: 100%;
-    width: 60%;
+    width: 75%;
 }
 
 .cardHeader {
     display: block;
-    height: 30%;
+    height: 15%;
 }
 
 .dcx {
@@ -46,7 +35,7 @@
 .cardFooter {
     padding: 12px 0 0 12px;
     display: block;
-    height: 30%;
+    height: 45%;
 }
 
 .tags {
@@ -62,4 +51,9 @@
     height: 40px;
     width: 40px;
     margin-top: 10px;
+}
+
+#kelly {
+    height: 200px;
+    opacity: 1;
 }

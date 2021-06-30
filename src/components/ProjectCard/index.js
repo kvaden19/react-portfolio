@@ -6,9 +6,6 @@ import window from '../images/icons8-new-window-50.png';
 function ProjectCard(props) {
   return (
     <div className="projectCard">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
       <div className="content">
         <div className="cardHeader">
           <h5>{props.name}</h5>

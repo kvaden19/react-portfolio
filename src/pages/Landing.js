@@ -3,10 +3,10 @@ import './styles/pages.css';
 
 function Landing() {
   return (
-    <div className='mainPage'>
-        <h3>
-            Hi, I'm Kelly. Here's a slightly pretentious statement about me.
-        </h3>
+    <div className='shortPage'>
+        <h3>Hi, I'm Kelly. I'm a web developer.</h3>
+        <h4>I specialize in building data-rich web applications with clean </h4> 
+        <h4>intuitive user interfaces.</h4>
     </div>
   );
 }

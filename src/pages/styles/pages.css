@@ -1,3 +1,23 @@
-* {
+.shortPage {
     color: white;
+    height: 100vh;
 }
+
+.shortPage h3 {
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 50px;
+}
+
+.shortPage h4 {
+    padding-left: 3%;
+    font-size: 30px;
+}
+
+.shortPage p {
+    width: 70%;
+    font-size: 16px;
+}
+
+/* .projectPage {
+} */

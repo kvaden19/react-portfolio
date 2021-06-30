@@ -3,20 +3,12 @@ import './styles/pages.css';
 
 function About() {
   return (
-    <div className='mainPage'>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-            consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-            sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-            gravida. Duis eget vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin
-            turpis semper, et interdum risus lobortis. Vestibulum suscipit nunc non egestas
-            tristique. Proin hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-            quam non, tristique tempor erat. Nullam non sem facilisis, tempus tortor sit amet,
-            volutpat nisl. Ut et turpis non nunc maximus mollis a vitae tortor. Pellentesque
-            mattis risus ac quam laoreet cursus. Praesent suscipit orci neque, vestibulum
-            tincidunt augue tincidunt non. Duis consequat mattis tortor vitae mattis.
-        </p>
+    <div className='shortPage'>
+        <p>I'm a web developer with a background in engineering and data analysis. In Summer 2021, I finished a certificate in full stack development from Rutgers University, adding skills in JavaScript and the MERN Stack to add to my existing knowledge of SQL Server and Python.</p> 
+
+        <p>A lifelong learner, I taught myself SQL to streamline data-gathering tasks for my engineering team. I contributed to building an energy efficiency recommendations engine in Python. My communication and collaboration skills are sharply honed from years working as an engineer and project manager.</p>
+
+        <p>As a future full-stack or back-end developer, I’m excited to bring data-driven insights to end-users for a fast-paced and innovative company.</p>
     </div>
   );
 }
